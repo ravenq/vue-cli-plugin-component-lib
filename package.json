@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "vue-cli-service serve ./example/main.js",
+    "build:lib": "vue-cli-service build --target lib ./src/index.js",
+    "build:example": "vue-cli-service build ./example/main.js",
+    "build": "npm run build:lib && npm run build:example",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

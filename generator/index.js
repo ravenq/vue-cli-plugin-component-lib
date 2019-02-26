@@ -36,7 +36,10 @@ module.exports = (api, opts, rootOptions) => {
     api.extendPackage({
       private: false,
       description: opts.description,
-      author: opts.author,
+      author: {
+        name: opts.author,
+        'e-mail': opts.email
+      },
       license: opts.license,
       repository: {
         type: 'git',

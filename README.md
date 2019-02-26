@@ -1,11 +1,14 @@
 # vue-cli-plugin-component-lib
 
+[![Build Status](https://travis-ci.org/ravenq/vue-cli-plugin-component-lib.svg?branch=master)](https://travis-ci.org/ravenq/vue-cli-plugin-component-lib)
+
 create a component lib with example for `@vue/cli` 3.0.
 
 ## Feature
 
 * example code for your component.
 * travis config if you need.
+* deploy to npm by travis.
 
 ## Install
 

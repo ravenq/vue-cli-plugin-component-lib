@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-component-lib",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "private": true,
   "description": "The vue lib for markdown-it",

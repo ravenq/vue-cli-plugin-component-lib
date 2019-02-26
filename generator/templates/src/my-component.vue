@@ -4,8 +4,8 @@
 
 <script>
 export default {
-  name: "my-component",
-  data () {
+  name: '<%= options.libName %>',
+  data() {
     return {}
   }
 };

@@ -6,12 +6,12 @@
 </template>
 
 <script>
-import MyComponent from '../../src'
+import <%= libNameCamelCase %> from '../../src'
 export default {
   components: {
-    MyComponent
+    <%= libNameCamelCase %>
   },
-  data () {
+  data() {
     return {}
   }
 }

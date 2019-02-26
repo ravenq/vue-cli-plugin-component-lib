@@ -17,13 +17,14 @@
   "bugs": {
     "url": "https://github.com/ravenq/vue-cli-plugin-component-lib/issues"
   },
-  "scripts": {
-    "serve": "vue-cli-service serve ./example/main.js",
-    "build:lib": "vue-cli-service build --target lib ./src/index.js",
-    "build:example": "vue-cli-service build ./example/main.js",
-    "build": "npm run build:lib && npm run build:example",
-    "lint": "vue-cli-service lint"
-  },
+  "keywords": [
+    "component",
+    "component-lib",
+    "vue",
+    "vue-cli",
+    "plugin",
+    "cli"
+  ],
   "dependencies": {
     "lodash.camelcase": "^4.3.0",
     "lodash.endswith": "^4.2.1",

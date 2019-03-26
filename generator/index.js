@@ -60,10 +60,11 @@ module.exports = (api, opts, rootOptions) => {
     libNameCamelCase: libNameCamelCase
   })
 
-  api.render({
-    './src/index.js': './templates/src/index.js',
-    './src/my-component.vue': `./templates/src/${opts.libName}.vue`,
-  }, {
+  let rendeerOpts = {
+    './src/index.js': './templates/src/index.js'
+  }
+  rendeerOpts[`./src/${opts.libName}.vue`] = './templates/src/my-component.vue'
+  api.render(rendeerOpts, {
     libNameCamelCase: libNameCamelCase
   })
 

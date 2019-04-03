@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>The example of your vue component</div>
-    <my-component></my-component>
+    <<%= libNameKebabCasemy %> />
   </div>
 </template>
 

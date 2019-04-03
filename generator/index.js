@@ -55,9 +55,10 @@ module.exports = (api, opts, rootOptions) => {
   api.render({
     './example/components/ComponentLib.vue': './templates/example/components/ComponentLib.vue',
     './example/App.vue': './templates/example/App.vue',
-    './example/main.js': './templates/example/main.js',
+    './example/main.js': './templates/example/main.js'
   }, {
-    libNameCamelCase: libNameCamelCase
+    libNameCamelCase: libNameCamelCase,
+    libNameKebabCase: libNameKebabCase
   })
 
   let rendeerOpts = {
